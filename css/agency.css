@@ -11726,7 +11726,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/main/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11789,4 +11789,18 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 20px;
   padding-top: 1.5rem;
   color: #2f2f2f;
+}
+
+.icon-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+
+.contact-icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
 }
