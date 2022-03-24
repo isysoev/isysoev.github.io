@@ -176,7 +176,7 @@ address {
 ol,
 ul {
   padding-left: 2rem;
-}
+}underli
 
 ol,
 ul,
@@ -5401,6 +5401,8 @@ textarea.form-control-lg {
   border: 0;
   border-radius: 0.25rem;
   opacity: 0.5;
+  margin-left: auto; 
+  margin-right: 0;
 }
 .btn-close:hover {
   color: #000;
@@ -11461,6 +11463,7 @@ header.masthead .masthead-heading {
   position: relative;
   display: block;
   margin: 0 auto;
+  text-decoration: none;
 }
 .portfolio .portfolio-item .portfolio-link img {
   width: 100%;
@@ -11493,10 +11496,21 @@ header.masthead .masthead-heading {
   font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   margin-bottom: 0;
+  color: #2f2f2f;
+  text-decoration: underline;
+  text-decoration-color: #2f2f2f;
 }
 .portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #2f2f2f;
+}
+
+.portfolio .portfolio-item .portfolio-caption .portfolio-caption-description {
+  text-align: left;
+  margin-top: 1em;
+  color: #2f2f2f;
+  font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .portfolio-modal .modal-dialog {
@@ -11804,3 +11818,81 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 1.5em;
   margin-right: 1em;
 }
+
+.project-title {
+  padding-top: 0.3125rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #2f2f2f;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.95rem;
+  color: #2f2f2f;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+
+.inline-href {
+  color: #2f2f2f;
+}
+
+.youtube{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.embed-responsive-16by9 {
+  position: relative;
+  width:100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.centerline-graphics {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-control-prev .fa-chevron-left,
+.carousel-control-next .fa-chevron-right {
+    color: black;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+.img-gallery {
+  width: 100%;
+}
+
+.img-popup {
+  max-width: 98vmin;
+}
+
+@media (min-width: 768px) {
+  .img-popup {
+    max-width: 90vmin;
+  }
+}
+
+/*.close-icon {
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.close-icon:hover {
+  opacity: 0.5;
+}*/
