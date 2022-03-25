@@ -11886,6 +11886,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
+.img-popup-wide {
+  max-width: 90vw;
+}
+
+.centerline-attribution {
+  margin-top: -2em; 
+  font-size: 0.7em; 
+  text-align: right;
+}
+
 /*.close-icon {
   width: 2em;
   height: 2em;
