@@ -1,3 +1,1 @@
-# Safinah Ali, Interaction Designer
-
-## Portfolio
+# Ivan Sysoev
